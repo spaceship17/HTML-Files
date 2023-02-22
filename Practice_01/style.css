@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+ 
+body {
+   margin: 0;
+   background-color: hsl(185, 81%, 43%);
+   font-family: "Roboto", sans-serif;
+}
+.wrapper {
+   max-width: 1000px;
+   display: flex;
+   margin: 10rem auto;
+}
+.logo{
+    margin-bottom: 0px;
+    margin-right: 20px;
+    border-radius: 30px;
+    width: 200px;
+}
+.title {
+   font-size: 3.5rem;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   color: hwb(256 9% 11%);
+}
+.about {
+   margin-top: 5px;
+   font-size: 1.5rem;
+   padding-right: 5rem;
+}
+.form-container {
+   background-color: white;
+   padding: 3rem;
+   border: 1px solid lightgray;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   width: 200px;
+}
+.form-container * {
+   margin: 8px 0;
+   padding: 1rem;
+   border: 1px solid rgb(228, 228, 228);
+   font-size: 1rem;
+   border-radius: 10px;
+}
+.home {
+   background-color: hsl(283, 82%, 49%);
+   border: none;
+   color: white;
+   font-size: 1.25rem;
+   font-weight: bold;
+}
+.booking{
+   border: none;
+   padding: 0;
+   font-size: 1.25rem;
+   text-align: center;
+   text-decoration: none;
+   color: #e51616;
+}
+.line {
+   border: none;
+   border-radius: 0;
+   border-top: 1px solid lightgray;
+   margin: 10px 0;
+   padding: 0;
+}
+.create {
+   border: none;
+   width: 200px;
+   margin: 10px auto;
+   color: white;
+   font-size: bold;
+   background-color: #42b72a;
+}
