@@ -1,0 +1,140 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 95%;
+    color:#666666;
+    background: color #f8f8f8;
+}
+li{
+    line-height: 1.5em;
+}
+table{
+    border-spacing: 0px;
+}
+th,td {
+    padding: 5px 10px 5px 10px;
+    border-spacing: 500px;
+    font-size: 100%;
+    margin: 0px;
+}
+th, td{
+    text-align: left;
+    background-color:aquamarine;
+    border-top: 1px solid #f1f1f1;
+    border-bottom: 3px solid salmon;
+    border-right: 5px solid #f2fef2;
+}
+tr.head th{
+    color: #ffffff;
+    background-color: #909090;
+    border-bottom: 3px solid #545454;
+    border-right: 1px solid #909090;
+    border-top: 2px solid #f2fef2;
+    text-align: center;
+    text-shadow: -1px -1px -2px #666666;
+}
+td{
+    text-shadow: 1px 1px 1px #f2fef2;
+}
+tr.even th, tr.even td{
+    background-color: #e8eff5;
+}
+
+h1{
+    color:darkcyan;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:xx-large;
+}
+p{
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.head{
+    color: blue;
+}
+
+legend{
+    color: brown;
+    margin-left: 180px;
+    font-size: 150%;
+    
+}
+fieldset{
+    width: 410px;
+    border-radius: 2%;
+    border-width: 0.5em;
+    margin-top: 15px;
+    border: 2px solid black;
+    background-color:#ffffff;
+    line-height: 1.8em;   
+
+}
+input[type="text"]
+{
+    width: 150px;
+    padding:2px;
+    border: 1px solid #dedede;
+    outline: none;
+}
+input[type="text"]:focus,
+input[type="text"]:hover{
+    background-color:#dedede;
+    border: 1px solid #999999;
+}
+input[type="email"]
+{
+    width: 151px;
+    padding:2px;
+    border: 1px solid #dedede;
+    outline: none;
+    margin-top: 5px;
+}
+input[type="email"]:hover{
+    background-color:#dedede;
+    border: 1px solid #999999;
+    
+}
+label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+input[type="submit"]
+{
+    background-color:burlywood;
+    border-radius: 6px;
+    background-color:rgb(204, 43, 43);
+    color: darkblue;
+    padding: 5px;
+    font-size: larger;
+    margin-top: 10px;   
+}
+input[type="submit"]:hover{
+    border:1px solid #006633;
+    background-color: #00cc33;
+    color:#ffffff;
+    cursor:pointer;
+}
+.title{
+    width:160px;
+    align-self: start;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    display: inline;
+
+}
+.submit{
+    width:430px;
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+

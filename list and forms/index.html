@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Workshop </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Practice Workshop</h1>
+    <p>We will be conducting online workshop throughout the year.</p>
+    <p>Please note that the workshop is free to our members.</p>
+    <p>The following are the features of our free workshop.</p>
+    <ul>
+        <li class="listimage">brief introduction of core concepts.</li>
+        <li class="listimage">Steps to how to approch the problem sets.</li>
+        <li class="listimage">Comprehensive ways to look at the problems and solve with minimal time frame.</li>
+    </ul>
+    <table>
+        <tr class="head">
+           <th></th>
+           <th>Morning session</th>
+           <th>Afternoon session</th>
+           <th>Evening session</th>
+           </tr>
+        <tr class="topics">
+            <th>Gravitation</th>
+            <td>Friday, 3rd march 2023<br/> 8am-10 am</td>
+            <td>Tuesday, 5rd march 2023<br/> 2pm-4 pm</td>
+            <td>Saturday, 7rd march 2023<br/> 7pm-10 pm</td>
+        </tr>
+        <tr class="even">
+            <th>Projectile</th>
+            <td>Friday, 3rd march 2023<br/> 8am-10 am</td>
+            <td>Tuesday, 5rd march 2023<br/> 2pm-4 pm</td>
+            <td>Saturday, 7rd march 2023<br/> 7pm-10 pm</td>
+        </tr>
+        <tr class="topics">
+            <th>SHM</th>
+            <td>Friday, 3rd march 2023<br/> 8am-10 am</td>
+            <td>Tuesday, 5rd march 2023<br/> 2pm-4 pm</td>
+            <td>Saturday, 7rd march 2023<br/> 7pm-10 pm</td>
+        </tr>
+    </table>
+    <form action="http://www.Practicewoshop.com/form.php" method="get">
+        <fieldset>
+            <legend>User</legend>
+             <div class="req-field">
+              <label for="name" class="">Name</label>
+              <input type="text" name="name" placeholder="Enter your name:" required>
+             </div>
+             <div class="req-field">
+              <label for="email">Email</label>
+              <input type="email" name="email" placeholder="Enter your email:" required>
+             </div>
+         
+            <label for="session" id="session-select">Choose your Session:</label>
+              <p><select name="session" id="session">
+                    <option value="" aria-required="true">Choose your slot</option>
+                    <option value="ms">Morning</option>
+                    <option value="af">Afternoon</option>
+                    <option value="ev">Evening</option>
+                </select></p>
+            <span class="title">Are you a member?</span>
+            <label><input type="radio" name="member" value="yes">Yes</label>
+            <label><input type="radio" name="member" value="no">No</label>
+
+
+             
+        </fieldset>
+        <div class="submit">
+            <input type="submit" value="Register">
+        </div>
+    </form>
+
+</body>
+</html>
