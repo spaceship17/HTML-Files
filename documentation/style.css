@@ -1,0 +1,127 @@
+html, body{
+    min-width: 290px;
+    color: #4d4e53;
+    background-color: #ffffff;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+    
+}
+body{
+    display: block;
+    margin: 8px;
+}
+#navigation-slider
+{
+    position: fixed;
+    min-width: 290px;
+    top:0px;
+    left:0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-right-width: initial;
+    border-right-style: solid;
+    border-color: rgba(0,22,22,0.4);
+
+}
+nav{
+    display: block;
+}
+#navigation-slider ul{
+    height: 90%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+
+}
+section li{
+    margin: 15px 0px 0px 20px;
+}
+ul ul {
+    list-style-type: disc;
+}
+
+#navigation-slider li{
+    color: #4d4e53;
+    border-top: 1px solid;
+    list-style: none;
+    width: 100%;
+    position: relative;
+}
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+#navigation-slider a {
+   display: block;
+   padding: 10px 30px;
+   color: #4d4e53;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+header{
+    color: black;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.8em;
+    display: block;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#main-bar{
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom:  120px;
+}
+#main-bar header{
+    text-align: left;
+    margin: 0px;
+}
+main{
+    display: block;
+}
+section article{
+    color: black;
+    margin:15px;
+    font-size: 1em;
+}
+article{
+    display: block;
+}
+section{
+    display: block;
+}
+code{
+    background-color:#f7f7f7;
+    border-radius: 5px;
+    padding: 15px;
+    font-family: monospace;
+    text-align: left;
+    line-height: 2;
+    word-wrap: normal;
+    display: block;
+    word-break: normal;
+    position: relative;
+}
+footer{
+   
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: 'Courier New'
+    , Courier, monospace;
+    background-color: rgb(78, 78, 229);
+    color: #ffffff;
+    border-radius: 5px;
+}
